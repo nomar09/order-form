@@ -111,7 +111,7 @@ if (currentTask == "build") {
   config.output = {
     filename: "assets/scripts/[name].[chunkhash].js",
     chunkFilename: "assets/scripts/[name].[chunkhash].js",
-    path: path.resolve(__dirname, "docs"),
+    path: path.resolve(__dirname, "dist"),
   };
   config.mode = "production";
   config.optimization = {
