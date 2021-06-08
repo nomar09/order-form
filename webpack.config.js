@@ -22,7 +22,7 @@ const postCSSPlugins = [
 class RunAfterCompile {
   apply(compiler) {
     compiler.hooks.done.tap("Copy images", function () {
-      fse.copySync("./app/assets/images", "./docs/assets/images");
+      fse.copySync("./app/assets/images", "./dist/assets/images");
     });
   }
 }
@@ -30,7 +30,7 @@ class RunAfterCompile {
 class RunAfterCompileCSS {
   apply(compiler) {
     compiler.hooks.done.tap("Copy css", function () {
-      fse.copySync("./app/assets/styles/all", "./docs/assets/styles/all");
+      fse.copySync("./app/assets/styles/all", "./dist/assets/styles/all");
     });
   }
 }
@@ -40,7 +40,7 @@ class RunAfterCompileWebFonts {
     compiler.hooks.done.tap("Copy webfonts", function () {
       fse.copySync(
         "./app/assets/styles/webfonts",
-        "./docs/assets/styles/webfonts"
+        "./dist/assets/styles/webfonts"
       );
     });
   }
