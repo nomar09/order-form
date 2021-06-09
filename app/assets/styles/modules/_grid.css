@@ -22,7 +22,7 @@
 
   .grid-column-6-center {
     grid-column: span 12;
-    @mixin atSmall {
+    @mixin atLarge {
       grid-column: 4/10;
     }
   }

@@ -26,8 +26,24 @@ a {
   color: $mainOrange;
 }
 
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
 .highlight {
   color: #41fec6;
+}
+
+.highlight-blue {
+  color: #02aee8;
 }
 
 .underline {
@@ -46,4 +62,15 @@ video {
   width: 100%;
   height: auto;
   margin: 20px auto;
+}
+
+.small-line {
+  max-width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: #01ade7;
+  border-top-width: 5px;
+  border-top-style: solid;
+  min-height: 1px;
 }
