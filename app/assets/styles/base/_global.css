@@ -74,3 +74,10 @@ video {
   border-top-style: solid;
   min-height: 1px;
 }
+
+.right-space {
+  padding-right: 0;
+  @mixin atMedium {
+    padding-right: 35px;
+  }
+}
