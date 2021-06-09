@@ -4,11 +4,11 @@ html {
 
 body {
   font-family: "Nunito", Helvetica, sans-serif;
-  color: #3d3d3d;
+  color: #2c2c2c;
   line-height: 1.5;
   @mixin atMedium {
     font-family: "Nunito", Helvetica, sans-serif;
-    color: #3d3d3d;
+    color: #2c2c2c;
     line-height: 1.42857143;
   }
 }
@@ -44,6 +44,10 @@ a {
 
 .highlight-blue {
   color: #02aee8;
+}
+
+.text-white {
+  color: #fff;
 }
 
 .underline {

@@ -7,15 +7,14 @@
 
   &--blue {
     background-color: #e6f8ff;
-    color: #fff;
   }
 
   &--pink {
     background-color: $lightPink;
   }
 
-  &--beauty {
-    background: url("assets/images/beauty-img.jpg") center center no-repeat;
+  &--bg-fixed {
+    background: url("assets/images/a10-min.jpg") center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
@@ -27,7 +26,6 @@
 
     line-height: 1em;
     margin: 0;
-    color: #2c2c2c;
 
     @mixin atMedium {
       font-size: 3.3125rem;
@@ -45,7 +43,6 @@
     padding: 0px 0px;
     line-height: 1em;
     margin: 0;
-    color: #2c2c2c;
 
     @mixin atMedium {
       font-size: 3.3125rem;
@@ -65,7 +62,6 @@
     padding: 0px 0px;
     line-height: 1em;
     margin: 0;
-    color: #2c2c2c;
 
     @mixin atMedium {
       font-size: 3.3125rem;
@@ -108,12 +104,11 @@
       font-weight: 500;
       padding: 10px 10px 10px 50px;
       line-height: 1.5em;
-      color: #2c2c2c;
+
       @mixin atMedium {
         font-size: 1.3125rem;
         line-height: 1.2em;
         font-weight: 600;
-        color: #2c2c2c;
       }
     }
   }
@@ -128,12 +123,11 @@
       font-weight: 500;
       padding: 10px 10px 10px 50px;
       line-height: 1.5em;
-      color: #2c2c2c;
+
       @mixin atMedium {
         font-size: 1.3125rem;
         line-height: 1.5em;
         font-weight: 500;
-        color: #2c2c2c;
       }
     }
   }
