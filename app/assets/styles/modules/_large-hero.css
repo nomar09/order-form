@@ -211,20 +211,6 @@
     }
   }
 
-  .highlight {
-    color: #41fec6;
-  }
-
-  .underline {
-    text-decoration: underline;
-  }
-
-  video {
-    width: 100%;
-    height: auto;
-    margin: 20px auto;
-  }
-
   .arrow-left {
     background: url("assets/images/arrow-down-left.png") top center no-repeat;
   }

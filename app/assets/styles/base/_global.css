@@ -25,3 +25,25 @@ img {
 a {
   color: $mainOrange;
 }
+
+.highlight {
+  color: #41fec6;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+}

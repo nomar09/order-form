@@ -83,7 +83,11 @@
 .grid-column-6 {
   grid-column: span 12;
   @mixin atSmall {
-    grid-column: span 4;
+    grid-column: span 12;
+  }
+
+  @mixin atMedium {
+    grid-column: span 6;
   }
 }
 

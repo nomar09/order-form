@@ -1,169 +1,8 @@
 .page-section {
-  padding: 1.2rem 0;
+  padding: 2.5rem 0;
 
   @mixin atMedium {
     padding: 4.5rem 0;
-  }
-
-  &--lead {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 0.625rem;
-
-    & div {
-      @mixin atMedium {
-        padding: 0px 15px;
-      }
-    }
-  }
-
-  &__column-8 {
-    grid-column: span 12;
-
-    @mixin atMedium {
-      grid-column: span 8;
-    }
-
-    h2.page-section__title {
-      color: #da518d;
-      font-size: 2.25rem;
-      font-family: Oswald, Helvetica, sans-serif;
-      font-style: italic;
-      line-height: 1.3em;
-      margin: 0;
-
-      span.black {
-        color: #3c3c3c;
-      }
-
-      @mixin atMedium {
-        color: #da518d;
-        font-size: 2.25rem;
-        font-family: Oswald, Helvetica, sans-serif;
-        font-style: italic;
-        line-height: 1.3em;
-        margin: 0;
-      }
-
-      @mixin atLarge {
-        color: #da518d;
-        font-size: 3.125rem;
-        font-family: Oswald, Helvetica, sans-serif;
-        font-style: italic;
-        line-height: 1.3em;
-        margin: 0;
-      }
-    }
-
-    img {
-      margin-top: 15px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-
-      @mixin atMedium {
-        margin-top: 15px;
-        display: inline-block;
-      }
-    }
-    p.page-section__description {
-      text-align: left;
-      font-size: 1.125rem;
-      margin: 10px 0px 24px 0px;
-
-      @mixin atMedium {
-        text-align: left;
-        font-size: 1.125rem;
-        margin: 10px 0px 24px 0px;
-      }
-
-      @mixin atLarge {
-        text-align: left;
-        font-size: 1.5rem;
-        margin: 10px 0px 24px 0px;
-      }
-    }
-
-    ul.page-section__list {
-      list-style-type: none;
-      padding: 0;
-      li {
-        background: url("assets/images/arrow-right.png") no-repeat;
-        font-size: 1.0625rem;
-        background-position: 7px 12px;
-
-        padding: 10px 10px 10px 50px;
-      }
-    }
-
-    div.page-section__discount-container {
-      max-width: 670px;
-      width: 100%;
-
-      margin-left: 0;
-      margin-top: 20px;
-      margin-right: 0px;
-      background: url("assets/images/arrow-right-pink.png") no-repeat;
-
-      background-size: cover;
-      background-position: left center;
-
-      h1 {
-        text-align: center;
-        font-size: 1.75rem;
-        color: rgb(255, 255, 255);
-        font-family: Oswald, Helvetica, sans-serif;
-        font-style: italic;
-        margin: 0;
-        @mixin atMedium {
-          text-align: center;
-          font-size: 1.75rem;
-          color: rgb(255, 255, 255);
-          font-family: Oswald, Helvetica, sans-serif;
-          font-style: italic;
-          margin: 0;
-        }
-
-        @mixin atLarge {
-          text-align: center;
-          font-size: 2.75rem;
-          color: rgb(255, 255, 255);
-          font-family: Oswald, Helvetica, sans-serif;
-          font-style: italic;
-          margin: 0;
-        }
-      }
-      h2 {
-        text-align: center;
-        font-size: 0.75rem;
-        color: rgb(255, 255, 255);
-        font-weight: 100;
-        margin: -7px 0px 0px 0px;
-        padding-bottom: 10px;
-
-        @mixin atMedium {
-          text-align: center;
-          font-size: 0.75rem;
-          color: rgb(255, 255, 255);
-          font-weight: 100;
-          margin: -7px 0px 0px 0px;
-          padding-bottom: 10px;
-        }
-
-        @mixin atLarge {
-          text-align: center;
-          font-size: 1.5625rem;
-          color: rgb(255, 255, 255);
-          font-weight: 100;
-          margin: -7px 0px 0px 0px;
-          padding-bottom: 10px;
-        }
-      }
-    }
-
-    p.page-section__paragraph {
-      margin: 30px 0px 0px 0px;
-    }
   }
 
   &--blue {
@@ -179,6 +18,56 @@
     background: url("assets/images/beauty-img.jpg") center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
+  }
+
+  &--title {
+    font-family: "Nunito", Helvetica, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 1em;
+    margin: 0;
+    color: #2c2c2c;
+
+    @mixin atMedium {
+      font-size: 3.3125rem;
+    }
+
+    @mixin atLarger {
+      font-size: 4.3125rem;
+    }
+  }
+
+  &--description {
+    font-size: 1.125rem;
+    color: #2c2c2c;
+
+    @mixin atMedium {
+      font-size: 1.3125rem;
+    }
+  }
+
+  &--list {
+    list-style-type: none;
+    padding: 0;
+    li {
+      background: url("assets/images/arrow-right-blue.png") no-repeat;
+      font-size: 1.125rem;
+      background-position: 7px 12px;
+      font-weight: 500;
+      padding: 10px 10px 10px 50px;
+      line-height: 1.5em;
+      @mixin atMedium {
+        font-size: 1.3125rem;
+        line-height: 1.2em;
+        font-weight: 600;
+      }
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
   &--no-b-padding-until-medium {
