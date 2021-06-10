@@ -17,6 +17,10 @@
   line-height: 1;
 }
 
+.fa-question-circle:before {
+  content: "\f059";
+}
+
 .fa-caret-down:before {
   content: "\f0d7";
 }

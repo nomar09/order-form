@@ -79,6 +79,12 @@ video {
   min-height: 1px;
 }
 
+.full-width-line {
+  border-color: #c8c8c8;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
 .top {
   margin-top: 20px;
 }

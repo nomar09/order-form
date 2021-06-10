@@ -48,7 +48,17 @@
   &--medium {
     padding: 10px 20px;
     width: 100%;
-    margin: 35px auto;
+    margin: 30px auto;
+    display: block;
+
+    position: relative;
+    border-radius: 5px;
+  }
+
+  &--medium-section {
+    padding: 10px 20px;
+    width: 100%;
+    margin: 0px auto;
     display: block;
 
     position: relative;
