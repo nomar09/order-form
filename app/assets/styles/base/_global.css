@@ -79,6 +79,10 @@ video {
   min-height: 1px;
 }
 
+.top {
+  margin-top: 20px;
+}
+
 .right-space {
   padding-right: 0;
   @mixin atMedium {

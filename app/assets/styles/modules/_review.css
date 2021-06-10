@@ -1,0 +1,45 @@
+.review-container {
+  /* margin-top: 0px; */
+
+  padding: 0px 0px;
+
+  @mixin atMedium {
+    padding: 0px 20px;
+  }
+
+  &--title {
+    font-size: 1.2rem;
+    margin: 30px 0px 0px 0px;
+
+    @mixin atMedium {
+      font-size: 1.5rem;
+      margin: 24px 0px 0px 0px;
+    }
+  }
+
+  &--description {
+    font-size: 0.875rem;
+
+    @mixin atMedium {
+      font-size: 1.1875rem;
+    }
+  }
+
+  &--name {
+    font-size: 1rem;
+    line-height: 3em;
+
+    @mixin atMedium {
+      font-size: 1.125rem;
+      line-height: 3em;
+    }
+  }
+  .img-right {
+    margin-left: 10px;
+  }
+
+  .img-left {
+    vertical-align: top;
+    margin-right: 10px;
+  }
+}
