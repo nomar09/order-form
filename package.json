@@ -1,5 +1,5 @@
 {
-  "name": "consultant",
+  "name": "consultant-upsell",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -42,13 +42,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nomar09/consultant.git"
+    "url": "git+https://github.com/nomar09/consultant-upsell.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nomar09/consultant/issues"
+    "url": "https://github.com/nomar09/consultant-upsell/issues"
   },
-  "homepage": "https://github.com/nomar09/consultant#readme"
+  "homepage": "https://github.com/nomar09/consultant-upsell#readme"
 }
