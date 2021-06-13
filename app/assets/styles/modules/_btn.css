@@ -28,14 +28,58 @@
     background-color: $mainPurple;
   }
 
+  &--red {
+    background-color: #f12d02;
+  }
+
   &--purple:hover {
     background-color: $mainLightPurple;
+  }
+
+  &--red {
+    background-color: #f12d02;
+    margin: 0;
+  }
+
+  &--red:hover {
+    box-shadow: inset 0 2px 2px 0 rgb(255 255 255 / 22%),
+      0 233px 233px 0 rgb(255 255 255 / 12%) inset;
+  }
+
+  &--normal {
+    background: none;
+    color: #acacac;
+    text-decoration: none;
+    padding: 0;
+    display: block;
+    font-size: 0.8125rem;
+
+    @mixin atMedium {
+      font-size: 1rem;
+    }
+  }
+
+  &--normal:hover {
+    text-decoration: underline;
   }
 
   &--large {
     padding: 9px 25px;
     max-width: 632px;
     margin: 35px auto;
+    display: block;
+
+    position: relative;
+    border-radius: 5px;
+    @mixin atSmall {
+      font-size: 1.75rem;
+    }
+  }
+
+  &--larger {
+    padding: 15px 25px;
+    max-width: 632px;
+    margin: 10px auto;
     display: block;
 
     position: relative;
@@ -77,6 +121,15 @@
     font-size: 0.875rem;
     @mixin atSmall {
       font-size: 1.5rem;
+    }
+  }
+
+  &__headline-single {
+    display: inline-block;
+
+    font-size: 1.0625rem;
+    @mixin atSmall {
+      font-size: 1.75rem;
     }
   }
 

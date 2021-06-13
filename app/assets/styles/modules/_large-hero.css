@@ -1,14 +1,10 @@
 .large-hero {
   display: grid;
   grid-template-columns: 1fr;
-  background: url("assets/images/hero-landing-lg.jpg") top center no-repeat;
+  background: url("assets/images/banner.jpg") center center no-repeat;
   background-size: cover;
-  padding-bottom: 0;
-  padding-top: 20px;
-  border-bottom: 5px solid #56ecdd;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  background-attachment: fixed;
+
   /* &__image {
     grid-column: 1;
     grid-row: 1;
@@ -21,14 +17,9 @@
   @mixin atMedium {
     display: grid;
     grid-template-columns: 1fr;
-    background: url("assets/images/hero-landing-lg.jpg") top center no-repeat;
+    background: url("assets/images/banner.jpg") center center no-repeat;
     background-size: cover;
-    padding-bottom: 0;
-    padding-top: 20px;
-    border-bottom: 5px solid #56ecdd;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    background-attachment: fixed;
   }
 
   img {
