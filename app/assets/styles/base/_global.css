@@ -123,3 +123,11 @@ video {
 .strike {
   text-decoration: line-through;
 }
+
+.container-side-20 {
+  padding: 0px 0px;
+
+  @mixin atMedium {
+    padding: 0px 20px;
+  }
+}

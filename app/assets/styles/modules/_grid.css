@@ -91,6 +91,10 @@
   }
 }
 
+.grid-column-6-mobile {
+  grid-column: span 6;
+}
+
 .grid-column-7 {
   grid-column: span 12;
   @mixin atSmall {

@@ -57,7 +57,7 @@
   }
 
   &--title {
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 900;
 
     line-height: 1em;
@@ -65,10 +65,6 @@
 
     @mixin atMedium {
       font-size: 3.3125rem;
-    }
-
-    @mixin atLarger {
-      font-size: 4.3125rem;
     }
   }
 
